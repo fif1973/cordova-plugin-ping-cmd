@@ -23,7 +23,7 @@ cordova plugin add https://github.com/Spartan0nix/cordova-plugin-ping.git
 #### Check if host is reachable
 
    * **ipAddress** => Destination ip address 
-      * The ip address need to be a public ip or an ip address on the same private network as yours.
+      * The ip address need to be a public ip, ip address on the same private network as yours or a domain name (ex : google.fr).
    * **onsuccess**
       * Return a string 
         * ``` Host is reachable ```
@@ -36,7 +36,7 @@ cordova plugin add https://github.com/Spartan0nix/cordova-plugin-ping.git
 #### Perform a complete ``` ping <ipAddress> ```
 
    * **ipAddress** => Destination ip address 
-      * The ip address need to be a public ip or an ip address on the same private network as yours.
+      * The ip address need to be a public ip, ip address on the same private network as yours or a domain name (ex : google.fr).
    * **onsuccess**
       * Return the entire ping result in the same string.
       * Each line return is on a different ```<p></p>```.
