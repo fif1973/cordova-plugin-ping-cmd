@@ -13,7 +13,7 @@ This little plugin provides two functions to perform simple ICMP operations.
 
 # Install
 ```
-cordova plugin add https://github.com/Spartan0nix/cordova-plugin-ping.git
+cordova plugin add https://github.com/Spartan0nix/cordova-plugin-ping-cmd.git
 ```
 
 # Usage
