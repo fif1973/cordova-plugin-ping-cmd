@@ -12,6 +12,11 @@ If you get your index.html url you will find that cordova does not use ```http (
 This little plugin provides two functions to perform simple ICMP operations.
 
 # Install
+NPM:
+```
+cordova plugin add cordova-plugin-ping-cmd
+```
+Github:
 ```
 cordova plugin add https://github.com/Spartan0nix/cordova-plugin-ping-cmd.git
 ```
