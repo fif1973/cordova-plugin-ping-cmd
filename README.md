@@ -1,9 +1,9 @@
 # cordova plugin ping
 
-### Table of contents
-* [Install] #(Install)
-* [Functions] #(Functions)
-* [Usage] #(Usage)
+### Contents
+* [Install](#install)
+* [Functions](#functions)
+* [Usage](#usage)
 
 ## Install
 ```
