@@ -34,7 +34,9 @@ public class Ping extends CordovaPlugin {
     }
 
     public boolean execute(String action, JSONArray arg, CallbackContext callbackContext) throws JSONException {
+        // define the callBackContext
         this.callbackContext = callbackContext;
+        // Retrieve the ipAddress
         String ipAddress = arg.getString(0);
         if (action.equals("ipReachable")) {
                 this.ipReachable(ipAddress); 
@@ -50,6 +52,7 @@ public class Ping extends CordovaPlugin {
     public void ipReachable(String ipAddress) {
         try {
             InetAddress destination = InetAddress.getByName(ipAddress);
+            // Is the host reachable
             if( destination.isReachable(5000)){
                 this.request="Host is reachable";
             }else{
