@@ -1,0 +1,17 @@
+{
+  "name": "cordova-plugin-ping",
+  "version": "1.0.0",
+  "description": "cordova plugin to perform icmp reply/request",
+  "cordova": {
+    "id": "cordova-plugin-ping",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Spartan0nix",
+  "license": "ISC"
+}
