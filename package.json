@@ -1,17 +1,25 @@
 {
-  "name": "cordova-plugin-ping",
+  "name": "cordova-plugin-ping-cmd",
   "version": "1.0.0",
-  "description": "cordova plugin to perform icmp reply/request",
+  "description": "Cordova Plugin to perform basic ICMP operations",
   "cordova": {
-    "id": "cordova-plugin-ping",
+    "id": "cordova-plugin-ping-cmd",
     "platforms": [
       "android"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spartan0nix/cordova-plugin-ping-cmd.git"
   },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
   ],
   "author": "Spartan0nix",
-  "license": "MIT"
+  "license": "MTI",
+  "bugs": {
+    "url": "https://github.com/Spartan0nix/cordova-plugin-ping-cmd/issues"
+  },
+  "homepage": "https://github.com/Spartan0nix/cordova-plugin-ping-cmd#readme"
 }
