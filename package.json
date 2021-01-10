@@ -17,7 +17,7 @@
     "cordova-android"
   ],
   "author": "Spartan0nix",
-  "license": "MTI",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Spartan0nix/cordova-plugin-ping-cmd/issues"
   },
