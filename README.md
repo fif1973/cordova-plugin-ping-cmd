@@ -3,8 +3,8 @@
 # Contents
 * [General](#general)
 * [Install](#install)
-* [Functions](#functions)
 * [Usage](#usage)
+* [Improvement](#improvement)
 
 # General
 If you want to perform ICMP operation such as echo-request/reply using cordova, you will find yourself easily stuck.
@@ -16,7 +16,7 @@ This little plugin provides two functions to perform simple ICMP operations.
 cordova plugin add https://github.com/Spartan0nix/cordova-plugin-ping.git
 ```
 
-# Functions
+# Usage
 
 ## Function 'ipReachable'
 ``` cordova.plugins.Ping.ipReachable(ipAddress, onsuccess, onerror);  ```
@@ -41,6 +41,8 @@ cordova plugin add https://github.com/Spartan0nix/cordova-plugin-ping.git
       * Return the entire ping result in the same string.
       * Each line return is on a different ```<p></p>```.
    * **onerror**
-      * Host not reachable, ping with 100% Packet Loss, etc... are not considered as an error *
-       
-# Usage
+      * Host not reachable, ping with 100% Packet Loss, etc... are not considered as an error *   
+
+# Improvement
+First time creating a Cordova plugin.
+I did not manage to return the ping result line by line, just like in a terminal.
