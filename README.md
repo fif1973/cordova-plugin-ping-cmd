@@ -1,4 +1,4 @@
-# cordova plugin ping
+# Cordova Plugin Ping
 
 # Contents
 * [General](#general)
