@@ -14,7 +14,9 @@
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova-android"
+    "cordova-android",
+    "cordova",
+    "ping"
   ],
   "author": "Spartan0nix",
   "license": "MIT",
