@@ -39,9 +39,17 @@ public class Ping extends CordovaPlugin {
         // Retrieve the ipAddress
         String ipAddress = arg.getString(0);
         if (action.equals("ipReachable")) {
-                this.ipReachable(ipAddress); 
+            cordova.getThreadPool().execute(new Runnable() {
+                public void run() {
+                  this.ipReachable(ipAddress);
+                }
+              });
         } else if (action.equals("ping")) {
-                this.ping(ipAddress);     
+            cordova.getThreadPool().execute(new Runnable() {
+                public void run() {
+                    this.ping(ipAddress);     
+                }
+              });
         } else {
           // Unsupported action
             return false;
