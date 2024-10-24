@@ -41,13 +41,13 @@ public class Ping extends CordovaPlugin {
         if (action.equals("ipReachable")) {
             cordova.getThreadPool().execute(new Runnable() {
                 public void run() {
-                  this.ipReachable(ipAddress);
+                  ipReachable(ipAddress);
                 }
               });
         } else if (action.equals("ping")) {
             cordova.getThreadPool().execute(new Runnable() {
                 public void run() {
-                    this.ping(ipAddress);     
+                    ping(ipAddress);     
                 }
               });
         } else {
